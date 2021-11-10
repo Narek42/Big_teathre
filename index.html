@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./images/yuliya-bolshoy-teatr.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaStyle.css" />
+    <title>БОЛЬШОЙ ТЕАТР</title>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div class="bg_teathre">
+        <nav>
+          <div class="navbar">
+            <div class="navigator">
+              <a href="#main">Главная</a>
+              <a href="#about_teathre">О театре</a>
+              <a href="#our_productions">Наши постановки</a>
+              <a href="#partners">Партнеры театра</a>
+              <a href="#footer">Контакты</a>
+            </div>
+            <div class="phone_number">
+              <a>+7 495 123-45-67</a>
+            </div>
+          </div>
+          <div class="side_navbar">
+            <div class="icon_sidebar_phone_number">
+              <span
+                class="icon_open_side_navbar"
+                style="font-size: 30px; cursor: pointer"
+                onclick="openNav()"
+                ><img src="./images//Vector__.png" alt=""></span
+              >
+              <a>+7 495 123-45-67</a>
+            </div>
+
+            <div id="mySidenav" class="sidenav">
+              <a
+                href="javascript:void(0)"
+                class="closebtn"
+                onclick="closeNav()"
+              >
+                &times;
+              </a>
+              <a onclick="closeNav()" href="#main">Главная</a>
+              <a onclick="closeNav()" href="#about_teathre">О театре</a>
+              <a onclick="closeNav()" href="#our_productions">Наши постановки</a>
+              <a onclick="closeNav()" href="#partners">Партнеры театра</a>
+              <a onclick="closeNav()" href="#footer">Контакты</a>
+              <div class="sidenav_soclink"> 
+                     <img
+                  class="instagram"
+                  src="./images/instagram--active (1).png"
+                  alt=""
+                />
+                <img class="facebook" src="./images/Vector (1).png" alt="" />
+                <img class="vkantakte" src="./images/Vector (2).png" alt="" />
+                <img class="youtube" src="./images/Vector (3).png" alt="" />
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="sidebar">
+          <div class="flex_sidebar">
+            <div class="info">Контактная информация</div>
+            <div class="line"></div>
+            <div class="soc_link">
+              <img
+                class="instagram"
+                src="./images/instagram--active (1).png"
+                alt=""
+              />
+              <img class="facebook" src="./images/Vector (1).png" alt="" />
+              <img class="vkantakte" src="./images/Vector (2).png" alt="" />
+              <img class="youtube" src="./images/Vector (3).png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="afisha">
+          <div class="afisha_info">
+            <p class="big_teathre">Большой театр</p>
+            <p class="info_teathre">
+              Большо́й теа́тр — петербургский театр, существовавший в 1784—1886
+              годах, с 1886 года — Петербургская консерватория. Первое
+              постоянное в Санкт-Петербурге, крупнейшее в России и одно из
+              крупнейших театральных зданий в Европе XVIII.
+            </p>
+          </div>
+          <div class="afisha_image">
+            <img src="./images/image 3.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="bg_change">
+        <div id="about_teathre" class="about_teathre">
+          <p>О театре</p>
+        </div>
+        <div class="info_teathre">
+          <div class="the_best_teathre">
+            <p class="teathre_spb">Самый лучший театр СПБ</p>
+            <p class="info_about_teathre">
+              Как свидетельствуют архивные документы, первое каменное здание
+              Большого театра начали возводить в 1775 году по проекту Антонио
+              Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не
+              мог лично наблюдать за ходом работ, Екатерина II поручила
+              немецкому театральному декоратору и архитектору Людвигу Филиппу
+              Тишбейну создать новый проект театра, который и был воплощён
+              архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его
+              состоялось в 1783 году, хотя, основываясь на других
+              свидетельствах, годом открытия можно считать 1784 год.
+            </p>
+          </div>
+          <div class="about_numbers">
+            <p>Немного о цифрах</p>
+            <div class="icons">
+              <div class="armchair">
+                <img src="./images/armchair 1.png" alt="" />
+                <p>1600 посадочный мест</p>
+              </div>
+              <div class="curtains">
+                <img src="./images/Group.png" alt="" />
+                <p>350 лет истории</p>
+              </div>
+            </div>
+          </div>
+          <div class="img_teathre_night">
+            <img src="./images/Rectangle 12.png" alt="" />
+          </div>
+        </div>
+        <div id="our_productions" class="our_productions">
+          <div class="context">
+            <p>наши постановки</p>
+          </div>
+          <div class="productions">
+            <div id="productions_images" class="productions_images">
+              <div class="slider">
+                <div onclick="slideToLeft()" id="to_left" class="to_left">
+                  <span>&#8592</span>
+                </div>
+                <div onclick="slideToRight()" id="to_right" class="to_right">
+                  <span>&#8594</span>
+                </div>
+              </div>
+              <div>
+                <img src="./images/Rectangle 15.png" alt="" />
+                <div class="overlay">
+                  <p class="events">ОСКАР 2020</p>
+                  <p class="data">сентябрь 2020</p>
+                </div>
+              </div>
+              <div>
+                <img src="./images/Rectangle 16.png" alt="" />
+                <div class="overlay">
+                  <p class="events">ОСКАР 2020</p>
+                  <p class="data">сентябрь 2020</p>
+                </div>
+              </div>
+              <div>
+                <img src="./images/Rectangle 15 (1).png" alt="" />
+                <div class="overlay">
+                  <p class="events">золотой грамофон</p>
+                  <p class="data">июль 2020</p>
+                </div>
+              </div>
+              <div>
+                <img src="./images/Rectangle 15 (2).png" alt="" />
+                <div class="overlay">
+                  <p class="events">щелкунчик</p>
+                  <p class="data">май 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="five_star">
+          <img class="img_five_star" src="./images/Rectangle 28.png" alt="" />
+          <div class="overlay">
+            <div class="years">
+              <p>2018</p>
+              <p>2019</p>
+              <p>2020</p>
+            </div>
+            <div class="thebest_of_paris">
+              <div class="stars">
+                <img src="./images/Vector.png" alt="" />
+                <img src="./images/Vector.png" alt="" />
+                <img src="./images/Vector.png" alt="" />
+                <img src="./images/Vector.png" alt="" />
+                <img src="./images/Vector.png" alt="" />
+              </div>
+              <p>Лучший театр по мнению театральных критиков Парижа</p>
+            </div>
+          </div>
+        </div>
+        <div id="partners" class="partners">
+          <div class="context">
+            <p>партнеры театра</p>
+          </div>
+          <div class="logo">
+            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
+          </div>
+        </div>
+        <div class="become_patron">
+          <div class="context">
+            <p>стать меценатом</p>
+          </div>
+          <div id="footer" class="footer">
+            <div class="address_phonenumber">
+              <p>+7 (812) 123-45-55</p>
+              <p>+7 (812) 123-45-66</p>
+              <p>info@theater.ru</p>
+              <p>г. санкт-петербург, невский 140</p>
+            </div>
+            <div>
+              <div class="patron_form">
+                <div>
+                  <div>
+                    <input placeholder="Имя" type="text" />
+                    <input placeholder="Компания" type="text" />
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <input placeholder="Телефон" type="text" />
+                    <input placeholder="E-mail" type="text" />
+                  </div>
+                </div>
+                <div>
+                  <div class="parent_textarea">
+                    <textarea placeholder="Сообщение"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="send_form">
+                <button>отправить</button>
+              </div>
+            </div>
+          </div>
+          <div class="confidentiality">
+            <div class="info">
+              <p>
+                * Ваши данные не будут переданы третьим лицам, 100% вероятность.
+                Конфиденциальность мы гарантируем, и защищаем персональные
+                данные согласно законку ФЗ-52.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

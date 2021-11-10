@@ -1,0 +1,652 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  .bg_teathre {
+    width: 100%;
+    height: 734px;
+    background-image: url("./images/Rectangle\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar {
+      width: 80%;
+      display: flex;
+      justify-content: space-evenly;
+      height: 50px;
+      margin: auto auto auto 187px;
+      align-items: center;
+      position: relative;
+      flex-wrap: wrap;
+      .navigator {
+        display: flex;
+        justify-content: space-between;
+        width: max-content;
+      }
+      a {
+        list-style: none;
+        font-family: "Open Sans Condensed", sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        border-bottom: transparent 2px solid;
+        transition: border-bottom 0.2s linear;
+        white-space: nowrap;
+        margin: 15px 15px 0px 15px;
+        text-decoration: none;
+      }
+      a:hover {
+        border-bottom: #d1a954 2px solid;
+      }
+    }
+    .side_navbar {
+      .icon_sidebar_phone_number {
+        width: 95%;
+        margin: auto;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      a {
+        list-style: none;
+        font-family: "Open Sans Condensed", sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+        cursor: pointer;
+        border-bottom: transparent 2px solid;
+        transition: border-bottom 0.2s linear;
+        white-space: nowrap;
+        padding: 8px 8px 8px 20px !important;
+        text-decoration: none;
+      }
+      a:hover {
+        border-bottom: #d1a954 2px solid;
+      }
+      .icon_open_side_navbar {
+        margin: 20px;
+      }
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        .sidenav_soclink {
+          width: 85%;
+          height: max-content;
+          margin: auto;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: nowrap;
+          align-items: center;
+          padding: 40px 0px;
+          .instagram {
+            width: 26px;
+            height: 26px;
+            cursor: pointer;
+          }
+          .facebook {
+            width: 15px;
+            height: 26px;
+            cursor: pointer;
+          }
+          .vkantakte {
+            width: 26px;
+            height: 14px;
+            cursor: pointer;
+          }
+          .youtube {
+            width: 26px;
+            height: 18px;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        white-space: nowrap;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      .closebtn:hover {
+        border: none !important;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {
+          padding-top: 15px;
+        }
+        .sidenav li {
+          font-size: 18px;
+        }
+      }
+    }
+    .sidebar {
+      width: 150px;
+      height: 734px;
+      background: rgba(51, 51, 51, 0.75);
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      .flex_sidebar {
+        display: flex;
+        margin: 115px 0px;
+        flex-direction: column;
+        width: 150px;
+        height: 70%;
+        justify-content: space-between;
+        align-items: center;
+        .info {
+          transform: rotate(-90deg);
+          white-space: nowrap;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 25px;
+          font-family: "Open Sans Condensed", sans-serif;
+          letter-spacing: 0.1em;
+          color: #c4c4c4;
+        }
+        .line {
+          width: 80px;
+          height: 0px;
+          border: 3px solid #c4c4c4;
+          transform: rotate(-90deg);
+        }
+        .soc_link {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          width: 26px;
+          height: 174px;
+          .instagram {
+            width: 26px;
+            height: 26px;
+            cursor: pointer;
+          }
+          .facebook {
+            width: 15px;
+            height: 26px;
+            cursor: pointer;
+          }
+          .vkantakte {
+            width: 26px;
+            height: 14px;
+            cursor: pointer;
+          }
+          .youtube {
+            width: 26px;
+            height: 18px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .afisha {
+      width: 80%;
+      height: 610px;
+      margin: auto auto auto 187px;
+      display: flex;
+
+      div {
+        width: 50%;
+        margin: auto;
+      }
+      .afisha_info {
+        .big_teathre {
+          font-family: "Open Sans Condensed", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 64px;
+          line-height: 87px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+        .info_teathre {
+          font-family: "Open Sans Condensed", sans-serif;
+          font-style: normal;
+          font-size: 14px;
+          line-height: 150%;
+          color: #ffffff;
+        }
+      }
+      .afisha_image {
+        width: 350px;
+        height: 490px;
+        img {
+          box-shadow: 12px 12px 0px 0px #d1a954d9;
+          width: 100%;
+          //   max-width: 350px;
+          height: auto;
+        }
+      }
+    }
+  }
+  .bg_change {
+    width: 100%;
+    height: max-content;
+    background: #333333;
+    padding-bottom: 25px;
+
+    .about_teathre {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      p {
+        font-family: "Open Sans Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #d1a954;
+      }
+    }
+    .info_teathre {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 0px;
+      .the_best_teathre {
+        width: 40%;
+        padding: 20px;
+        p {
+          padding: 10px 5px;
+        }
+        .teathre_spb {
+          font-family: "Open Sans Condensed", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 21px;
+          line-height: 29px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #ffffff;
+        }
+        .info_about_teathre {
+          font-family: "Open Sans Condensed", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 150%;
+          text-align: justify;
+          color: #ffffff;
+        }
+      }
+      .about_numbers {
+        width: 20%;
+        padding: 20px;
+        p {
+          font-family: "Open Sans Condensed", sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 21px;
+          line-height: 29px;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          padding: 10px 5px;
+          white-space: nowrap;
+          color: #ffffff;
+        }
+        .icons {
+          p {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            color: #d1a954;
+          }
+        }
+      }
+      .img_teathre_night {
+        width: 30%;
+        padding: 20px;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .our_productions {
+      width: 100%;
+      height: max-content;
+      .context {
+        padding: 20px;
+        p {
+          font-family: "Open Sans Condensed", sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 48px;
+          line-height: 65px;
+          text-align: center;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+
+          /* gold */
+
+          color: #d1a954;
+        }
+      }
+      .productions {
+        padding: 40px 0px;
+        position: relative;
+        .productions_images {
+          display: flex;
+          .slider {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            div {
+              width: 80px;
+              height: 80px;
+              border-radius: 50%;
+              background: #d1a954;
+              border: none;
+              z-index: 1;
+              position: relative;
+              cursor: pointer;
+              user-select: none;
+              span {
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                font-size: 40px;
+                display: flex;
+                align-items: center;
+              }
+            }
+          }
+          div {
+            width: 100%;
+            height: max-content;
+            position: relative;
+            .overlay {
+              cursor: pointer;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              right: 0px;
+              bottom: 0px;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              margin: auto;
+              opacity: 0;
+              transition: opacity 0.3s linear;
+              p {
+                width: max-content;
+              }
+              .data {
+                transform: rotate(270deg);
+                position: absolute;
+                bottom: 85px;
+                left: -45px;
+              }
+              .events {
+                position: absolute;
+                top: 15px;
+                left: 20px;
+              }
+              .events,
+              .data {
+                font-family: "Open Sans Condensed", sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 33px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #ffffff;
+              }
+            }
+            .overlay:hover {
+              opacity: 1;
+            }
+            img {
+              width: 100%;
+              color: #333333a6;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+    .five_star {
+      width: 65%;
+      height: 434px;
+      margin: auto;
+      position: relative;
+      cursor: context-menu;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .img_five_star {
+        height: 434px !important;
+      }
+      .overlay {
+        width: 100%;
+        height: 434px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        .years {
+          width: 40%;
+          p {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 72px;
+            line-height: 98px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+
+            /* gold */
+
+            color: #d1a954;
+          }
+        }
+        .thebest_of_paris {
+          width: 40%;
+          p {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 150%;
+            color: #ffffff;
+          }
+          .stars {
+            display: flex;
+            justify-content: space-evenly;
+            img {
+              width: 26px;
+            }
+          }
+        }
+      }
+    }
+    .partners {
+      width: 65%;
+      margin: auto;
+      padding: 60px 0px;
+      .context {
+        font-family: "Open Sans Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #d1a954;
+      }
+      .logo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 44px 0px;
+        img {
+          margin: 10px;
+          width: 170px;
+          height: auto;
+        }
+      }
+    }
+    .become_patron {
+      width: 80%;
+      margin: auto;
+      .context {
+        padding: 40px 0px;
+        font-family: "Open Sans Condensed", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #d1a954;
+      }
+      .footer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px;
+        .address_phonenumber {
+          width: 40%;
+          p {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #ffffff;
+            padding: 5px;
+          }
+        }
+        .patron_form {
+          display: flex;
+          width: 80%;
+          margin: auto;
+          input,
+          textarea {
+            width: 180px;
+            height: 25px;
+            background: #444444;
+            border: 1px solid #616161;
+            outline: none;
+            margin: 9px;
+            padding: 3px;
+            font-family: "Open Sans Condensed", sans-serif;
+            color: white;
+            font-weight: 300;
+          }
+          .parent_textarea {
+            height: 75px;
+            textarea {
+              height: 75px !important;
+              resize: none;
+            }
+          }
+        }
+
+        .send_form {
+          width: 25%;
+          margin: auto;
+          button {
+            width: 190px;
+            height: 50px;
+            background: #d1a954;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            transition: font-size 0.3s linear;
+          }
+          button:active {
+            font-size: 17px;
+          }
+        }
+      }
+      .confidentiality {
+        width: 80%;
+        margin: auto;
+        padding: 40px 40px 5px 40px;
+        border-bottom: 1px solid #565656;
+
+        .info {
+          width: 70%;
+          margin: auto;
+          p {
+            font-family: "Open Sans Condensed", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 150%;
+            color: #989898;
+          }
+        }
+      }
+    }
+  }
+}

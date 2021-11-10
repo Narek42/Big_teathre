@@ -1,0 +1,195 @@
+@media screen and (max-width: 992px) {
+  .bg_teathre {
+    position: relative;
+  }
+  .navbar {
+    margin: auto !important;
+  }
+  .sidebar {
+    width: 100% !important;
+    height: 150px !important;
+    top: (734px - 150px) !important;
+    margin: auto !important;
+    .flex_sidebar {
+      width: 80% !important;
+      height: 150px !important;
+      margin: auto !important;
+      flex-direction: row !important;
+      .info,
+      .line {
+        transform: rotate(0deg) !important;
+      }
+      .soc_link {
+        width: 174px !important;
+        height: 26px !important;
+        flex-direction: row !important;
+      }
+    }
+  }
+  .afisha_image {
+    display: none;
+  }
+  .afisha {
+    margin: auto !important;
+    div {
+      width: 80% !important;
+    }
+  }
+
+  // ------
+
+  .info_teathre {
+    .img_teathre_night {
+      display: none;
+    }
+    .the_best_teathre {
+      width: 60% !important ;
+    }
+    .about_numbers {
+      width: 40% !important;
+    }
+  }
+  .five_star {
+    width: 85% !important;
+  }
+  .footer {
+    .address_phonenumber {
+      width: 51% !important;
+    }
+    .patron_form {
+      text-align: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 67% !important;
+    }
+  }
+
+  .send_form {
+    width: 51% !important;
+    text-align: center;
+    button {
+      width: 180px !important;
+      margin-top: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .bg_teathre {
+    .side_navbar {
+      display: none !important;
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .productions {
+    .productions_images {
+      .slider {
+        display: none !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 770px) {
+  .bg_teathre {
+    .navbar {
+      display: none !important;
+    }
+    .sidebar {
+      display: none;
+    }
+    .afisha_info {
+      width: 100% !important;
+    }
+  }
+  .our_productions {
+    .productions {
+      .productions_images {
+        overflow: hidden;
+        scroll-behavior: smooth;
+        .slider {
+          width: 100% !important;
+          .to_left {
+            opacity: 0;
+          }
+          div {
+            opacity: 0.8;
+            width: 80px !important;
+            height: 80px !important;
+          }
+        }
+        div {
+          width: 350px !important;
+          img {
+            width: 350px !important;
+          }
+        }
+      }
+      .productions_images::-webkit-scrollbar {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg_teathre {
+    .afisha {
+      width: 80% !important;
+    }
+  }
+  .bg_change {
+    .info_teathre {
+      flex-direction: column;
+      .the_best_teathre {
+        width: 90% !important;
+      }
+      .about_numbers {
+        width: 90% !important;
+        p {
+          padding: 30px 0px !important;
+        }
+        .icons {
+          display: flex;
+          justify-content: space-evenly;
+          text-align: center;
+          align-items: center;
+          div {
+            width: 50%;
+          }
+        }
+      }
+    }
+
+    .five_star {
+      width: 100% !important;
+      .years {
+        width: 30% !important;
+      }
+      .thebest_of_paris {
+        width: 60% !important;
+      }
+    }
+    .partners {
+      width: 90% !important;
+    }
+    .become_patron {
+      width: 95% !important;
+    }
+    .footer {
+      flex-direction: column-reverse;
+      .address_phonenumber {
+        width: 90% !important;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 40px 0px;
+      }
+      .patron_form {
+        width: 100% !important;
+      }
+    }
+  }
+}

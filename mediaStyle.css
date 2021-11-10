@@ -1,0 +1,200 @@
+@media screen and (max-width: 992px) {
+  .bg_teathre {
+    position: relative;
+  }
+  .navbar {
+    margin: auto !important;
+  }
+  .sidebar {
+    width: 100% !important;
+    height: 150px !important;
+    top: 584px !important;
+    margin: auto !important;
+  }
+  .sidebar .flex_sidebar {
+    width: 80% !important;
+    height: 150px !important;
+    margin: auto !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .sidebar .flex_sidebar .info,
+  .sidebar .flex_sidebar .line {
+    -webkit-transform: rotate(0deg) !important;
+            transform: rotate(0deg) !important;
+  }
+  .sidebar .flex_sidebar .soc_link {
+    width: 174px !important;
+    height: 26px !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .afisha_image {
+    display: none;
+  }
+  .afisha {
+    margin: auto !important;
+  }
+  .afisha div {
+    width: 80% !important;
+  }
+  .info_teathre .img_teathre_night {
+    display: none;
+  }
+  .info_teathre .the_best_teathre {
+    width: 60% !important;
+  }
+  .info_teathre .about_numbers {
+    width: 40% !important;
+  }
+  .five_star {
+    width: 85% !important;
+  }
+  .footer .address_phonenumber {
+    width: 51% !important;
+  }
+  .footer .patron_form {
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 67% !important;
+  }
+  .send_form {
+    width: 51% !important;
+    text-align: center;
+  }
+  .send_form button {
+    width: 180px !important;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .bg_teathre .side_navbar {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .productions .productions_images .slider {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .bg_teathre .navbar {
+    display: none !important;
+  }
+  .bg_teathre .sidebar {
+    display: none;
+  }
+  .bg_teathre .afisha_info {
+    width: 100% !important;
+  }
+  .our_productions .productions .productions_images {
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  .our_productions .productions .productions_images .slider {
+    width: 100% !important;
+  }
+  .our_productions .productions .productions_images .slider .to_left {
+    opacity: 0;
+  }
+  .our_productions .productions .productions_images .slider div {
+    opacity: 0.8;
+    width: 80px !important;
+    height: 80px !important;
+  }
+  .our_productions .productions .productions_images div {
+    width: 350px !important;
+  }
+  .our_productions .productions .productions_images div img {
+    width: 350px !important;
+  }
+  .our_productions .productions .productions_images::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg_teathre .afisha {
+    width: 80% !important;
+  }
+  .bg_change .info_teathre {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bg_change .info_teathre .the_best_teathre {
+    width: 90% !important;
+  }
+  .bg_change .info_teathre .about_numbers {
+    width: 90% !important;
+  }
+  .bg_change .info_teathre .about_numbers p {
+    padding: 30px 0px !important;
+  }
+  .bg_change .info_teathre .about_numbers .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bg_change .info_teathre .about_numbers .icons div {
+    width: 50%;
+  }
+  .bg_change .five_star {
+    width: 100% !important;
+  }
+  .bg_change .five_star .years {
+    width: 30% !important;
+  }
+  .bg_change .five_star .thebest_of_paris {
+    width: 60% !important;
+  }
+  .bg_change .partners {
+    width: 90% !important;
+  }
+  .bg_change .become_patron {
+    width: 95% !important;
+  }
+  .bg_change .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .bg_change .footer .address_phonenumber {
+    width: 90% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: auto;
+    padding: 40px 0px;
+  }
+  .bg_change .footer .patron_form {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=mediaStyle.css.map */
