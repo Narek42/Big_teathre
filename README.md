@@ -1,1 +1,1 @@
-Big theatre responsive site using HTML Css JavaScript 
+Big theatre responsive site using HTML Scss JavaScript 
