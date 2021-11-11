@@ -46,7 +46,7 @@ html {
   width: max-content;
 }
 
-.main .bg_teathre .navbar a {
+.main .bg_teathre .navbar .navigator_link {
   list-style: none;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 18px;
@@ -62,7 +62,11 @@ html {
   text-decoration: none;
 }
 
-.main .bg_teathre .navbar a:hover {
+.main .bg_teathre .navbar .phone_number {
+  margin-top: 15px;
+}
+
+.main .bg_teathre .navbar .navigator_link:hover {
   border-bottom: #d1a954 2px solid;
 }
 
@@ -81,7 +85,7 @@ html {
           justify-content: space-between;
 }
 
-.main .bg_teathre .side_navbar a {
+.main .bg_teathre .side_navbar .navigator_link {
   list-style: none;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 18px;
@@ -97,7 +101,7 @@ html {
   text-decoration: none;
 }
 
-.main .bg_teathre .side_navbar a:hover {
+.main .bg_teathre .side_navbar .navigator_link:hover {
   border-bottom: #d1a954 2px solid;
 }
 
